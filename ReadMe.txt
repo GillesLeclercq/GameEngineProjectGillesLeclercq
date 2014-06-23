@@ -1,6 +1,3 @@
-C'est un projet que j'ai pu réaliser lors de mon Master à l'université du Staffordshire.
-Il s'agissait de développer un prototype de game engine, principalement axé sur le développement d'une
-architecture adaptée au projet. 
-
-
-Le projet n'est en l'état pas compilable; il manque le DirectX Tool Kit qui est trop lourd pour être envoyé.
+C'est un projet que j'ai pu rï¿½aliser lors de mon Master ï¿½ l'universitï¿½ du Staffordshire.
+Il s'agissait de dï¿½velopper un prototype de game engine, principalement axï¿½ sur le dï¿½veloppement d'une
+architecture adaptï¿½e au projet. 
