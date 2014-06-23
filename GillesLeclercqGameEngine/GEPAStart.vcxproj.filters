@@ -1,0 +1,600 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="Main.cpp" />
+    <ClCompile Include="EventManager.cpp">
+      <Filter>Events</Filter>
+    </ClCompile>
+    <ClCompile Include="IGraphics.cpp">
+      <Filter>Modules\Graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="GameObject.cpp">
+      <Filter>GameObject</Filter>
+    </ClCompile>
+    <ClCompile Include="GameObjectManager.cpp">
+      <Filter>GameObject\Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="Game.cpp">
+      <Filter>Game</Filter>
+    </ClCompile>
+    <ClCompile Include="Graphics.cpp">
+      <Filter>Modules\Graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="GameObjectFactory.cpp">
+      <Filter>GameObject\Factory</Filter>
+    </ClCompile>
+    <ClCompile Include="XmlMediator.cpp">
+      <Filter>Utilities\Xml\Mediator</Filter>
+    </ClCompile>
+    <ClCompile Include="TinyXmlLoader.cpp">
+      <Filter>Utilities\Xml\TinyXml\Loader</Filter>
+    </ClCompile>
+    <ClCompile Include="ResourceManager.cpp">
+      <Filter>Resources\Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="LuaStateManager.cpp">
+      <Filter>Modules\AI\Scripts\Lua</Filter>
+    </ClCompile>
+    <ClCompile Include="TestComponent.cpp">
+      <Filter>Components</Filter>
+    </ClCompile>
+    <ClCompile Include="LuaAi.cpp">
+      <Filter>Modules\AI</Filter>
+    </ClCompile>
+    <ClCompile Include="BasicScriptComponent.cpp">
+      <Filter>Components\Script</Filter>
+    </ClCompile>
+    <ClCompile Include="GraphicsComponent.cpp">
+      <Filter>Components\Graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="IComponent.cpp">
+      <Filter>Components\Interfaces</Filter>
+    </ClCompile>
+    <ClCompile Include="Timer.cpp">
+      <Filter>Utilities\Timer</Filter>
+    </ClCompile>
+    <ClCompile Include="XInputDevice.cpp">
+      <Filter>Modules\Input\Devices</Filter>
+    </ClCompile>
+    <ClCompile Include="Input.cpp">
+      <Filter>Modules\Input</Filter>
+    </ClCompile>
+    <ClCompile Include="InputDeviceManager.cpp">
+      <Filter>Modules\Input\Devices\Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="AnalogicSet.cpp">
+      <Filter>Modules\Input\Devices\Set</Filter>
+    </ClCompile>
+    <ClCompile Include="ButtonSet.cpp">
+      <Filter>Modules\Input\Devices\Set</Filter>
+    </ClCompile>
+    <ClCompile Include="StickSet.cpp">
+      <Filter>Modules\Input\Devices\Set</Filter>
+    </ClCompile>
+    <ClCompile Include="TestInputComponent.cpp">
+      <Filter>Components\Input</Filter>
+    </ClCompile>
+    <ClCompile Include="ActionTranslator.cpp">
+      <Filter>Modules\Input</Filter>
+    </ClCompile>
+    <ClCompile Include="IInputComponent.cpp">
+      <Filter>Components\Input</Filter>
+    </ClCompile>
+    <ClCompile Include="ButtonProfile.cpp">
+      <Filter>Modules\Input\Profiles</Filter>
+    </ClCompile>
+    <ClCompile Include="KeyboardProfile.cpp">
+      <Filter>Modules\Input\Profiles\Device Specific</Filter>
+    </ClCompile>
+    <ClCompile Include="AnalogicProfile.cpp">
+      <Filter>Modules\Input\Profiles</Filter>
+    </ClCompile>
+    <ClCompile Include="StickProfile.cpp">
+      <Filter>Modules\Input\Profiles</Filter>
+    </ClCompile>
+    <ClCompile Include="XInputProfile.cpp">
+      <Filter>Modules\Input\Profiles\Device Specific</Filter>
+    </ClCompile>
+    <ClCompile Include="IInputProfile.cpp">
+      <Filter>Modules\Input\Profiles\Interfaces</Filter>
+    </ClCompile>
+    <ClCompile Include="KeyboardDevice.cpp">
+      <Filter>Modules\Input\Devices</Filter>
+    </ClCompile>
+    <ClCompile Include="Mesh.cpp">
+      <Filter>Components\Mesh</Filter>
+    </ClCompile>
+    <ClCompile Include="Camera.cpp">
+      <Filter>Components\Camera</Filter>
+    </ClCompile>
+    <ClCompile Include="DirectionalLightContainer.cpp">
+      <Filter>Components\Light</Filter>
+    </ClCompile>
+    <ClCompile Include="PointLightContainer.cpp">
+      <Filter>Components\Light</Filter>
+    </ClCompile>
+    <ClCompile Include="Shader.cpp">
+      <Filter>Components\Shader</Filter>
+    </ClCompile>
+    <ClCompile Include="Transformation.cpp">
+      <Filter>Components\Transformation</Filter>
+    </ClCompile>
+    <ClCompile Include="GameLoader.cpp">
+      <Filter>GameLoader</Filter>
+    </ClCompile>
+    <ClCompile Include="GameOption.cpp">
+      <Filter>Modules\GameOption</Filter>
+    </ClCompile>
+    <ClCompile Include="ILightManager.cpp">
+      <Filter>Modules\LightManager</Filter>
+    </ClCompile>
+    <ClCompile Include="LightManager.cpp">
+      <Filter>Modules\LightManager</Filter>
+    </ClCompile>
+    <ClCompile Include="IMeshManager.cpp">
+      <Filter>Modules\MeshManager</Filter>
+    </ClCompile>
+    <ClCompile Include="MeshManager.cpp">
+      <Filter>Modules\MeshManager</Filter>
+    </ClCompile>
+    <ClCompile Include="CameraManager.cpp">
+      <Filter>Modules\CameraManager</Filter>
+    </ClCompile>
+    <ClCompile Include="ICameraManager.cpp">
+      <Filter>Modules\CameraManager</Filter>
+    </ClCompile>
+    <ClCompile Include="ITransfoManager.cpp">
+      <Filter>Modules\TransformationManager</Filter>
+    </ClCompile>
+    <ClCompile Include="TransfoManager.cpp">
+      <Filter>Modules\TransformationManager</Filter>
+    </ClCompile>
+    <ClCompile Include="IShaderManager.cpp">
+      <Filter>Modules\ShaderManager</Filter>
+    </ClCompile>
+    <ClCompile Include="ShaderManager.cpp">
+      <Filter>Modules\ShaderManager</Filter>
+    </ClCompile>
+    <ClCompile Include="NullWindow.cpp">
+      <Filter>Modules\Window</Filter>
+    </ClCompile>
+    <ClCompile Include="Window.cpp">
+      <Filter>Modules\Window</Filter>
+    </ClCompile>
+    <ClCompile Include="tiny_obj_loader.cc">
+      <Filter>Utilities\TinyObjLoader</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Utilities.h">
+      <Filter>Utilities</Filter>
+    </ClInclude>
+    <ClInclude Include="Game.h">
+      <Filter>Game</Filter>
+    </ClInclude>
+    <ClInclude Include="GameObject.h">
+      <Filter>GameObject</Filter>
+    </ClInclude>
+    <ClInclude Include="Graphics.h">
+      <Filter>Modules\Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="IGraphics.h">
+      <Filter>Modules\Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="EventManager.h">
+      <Filter>Events</Filter>
+    </ClInclude>
+    <ClInclude Include="Event_DeleteObject.h">
+      <Filter>Events\EventTypes</Filter>
+    </ClInclude>
+    <ClInclude Include="IEvent.h">
+      <Filter>Events\EventTypes</Filter>
+    </ClInclude>
+    <ClInclude Include="Event_CreateObject.h">
+      <Filter>Events\EventTypes</Filter>
+    </ClInclude>
+    <ClInclude Include="GameObjectManager.h">
+      <Filter>GameObject\Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="GameObjectFactory.h">
+      <Filter>GameObject\Factory</Filter>
+    </ClInclude>
+    <ClInclude Include="XmlMediator.h">
+      <Filter>Utilities\Xml\Mediator</Filter>
+    </ClInclude>
+    <ClInclude Include="TinyXmlLoader.h">
+      <Filter>Utilities\Xml\TinyXml\Loader</Filter>
+    </ClInclude>
+    <ClInclude Include="ResourceManager.h">
+      <Filter>Resources\Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="IResourceLoader.h">
+      <Filter>Resources\Manager\Loader</Filter>
+    </ClInclude>
+    <ClInclude Include="IResource.h">
+      <Filter>Resources\Manager\Ressource</Filter>
+    </ClInclude>
+    <ClInclude Include="IComponent.h">
+      <Filter>Components\Interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="IScriptManager.h">
+      <Filter>Modules\AI\Scripts</Filter>
+    </ClInclude>
+    <ClInclude Include="LuaStateManager.h">
+      <Filter>Modules\AI\Scripts\Lua</Filter>
+    </ClInclude>
+    <ClInclude Include="TestComponent.h">
+      <Filter>Components</Filter>
+    </ClInclude>
+    <ClInclude Include="IAi.h">
+      <Filter>Modules\AI</Filter>
+    </ClInclude>
+    <ClInclude Include="LuaAi.h">
+      <Filter>Modules\AI</Filter>
+    </ClInclude>
+    <ClInclude Include="BasicScriptComponent.h">
+      <Filter>Components\Script</Filter>
+    </ClInclude>
+    <ClInclude Include="GraphicsComponent.h">
+      <Filter>Components\Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="Timer.h">
+      <Filter>Utilities\Timer</Filter>
+    </ClInclude>
+    <ClInclude Include="XInputDevice.h">
+      <Filter>Modules\Input\Devices</Filter>
+    </ClInclude>
+    <ClInclude Include="IInputComponent.h">
+      <Filter>Components\Input</Filter>
+    </ClInclude>
+    <ClInclude Include="Input.h">
+      <Filter>Modules\Input</Filter>
+    </ClInclude>
+    <ClInclude Include="Event_Action.h">
+      <Filter>Events\EventTypes</Filter>
+    </ClInclude>
+    <ClInclude Include="Event_AnalogicAction.h">
+      <Filter>Events\EventTypes</Filter>
+    </ClInclude>
+    <ClInclude Include="InputDeviceManager.h">
+      <Filter>Modules\Input\Devices\Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="AnalogicSet.h">
+      <Filter>Modules\Input\Devices\Set</Filter>
+    </ClInclude>
+    <ClInclude Include="ButtonSet.h">
+      <Filter>Modules\Input\Devices\Set</Filter>
+    </ClInclude>
+    <ClInclude Include="StickSet.h">
+      <Filter>Modules\Input\Devices\Set</Filter>
+    </ClInclude>
+    <ClInclude Include="Event_AttributeRequest.h">
+      <Filter>Events\EventTypes</Filter>
+    </ClInclude>
+    <ClInclude Include="Event_AttributeDelivery.h">
+      <Filter>Events\EventTypes</Filter>
+    </ClInclude>
+    <ClInclude Include="IScriptComponent.h">
+      <Filter>Components\Script</Filter>
+    </ClInclude>
+    <ClInclude Include="TestInputComponent.h">
+      <Filter>Components\Input</Filter>
+    </ClInclude>
+    <ClInclude Include="KeyboardDevice.h">
+      <Filter>Modules\Input\Devices</Filter>
+    </ClInclude>
+    <ClInclude Include="ActionTranslator.h">
+      <Filter>Modules\Input</Filter>
+    </ClInclude>
+    <ClInclude Include="IInputProfile.h">
+      <Filter>Modules\Input\Profiles\Interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="ButtonProfile.h">
+      <Filter>Modules\Input\Profiles</Filter>
+    </ClInclude>
+    <ClInclude Include="KeyboardProfile.h">
+      <Filter>Modules\Input\Profiles\Device Specific</Filter>
+    </ClInclude>
+    <ClInclude Include="AnalogicProfile.h">
+      <Filter>Modules\Input\Profiles</Filter>
+    </ClInclude>
+    <ClInclude Include="StickProfile.h">
+      <Filter>Modules\Input\Profiles</Filter>
+    </ClInclude>
+    <ClInclude Include="Event_StickAction.h">
+      <Filter>Events\EventTypes</Filter>
+    </ClInclude>
+    <ClInclude Include="XInputProfile.h">
+      <Filter>Modules\Input\Profiles\Device Specific</Filter>
+    </ClInclude>
+    <ClInclude Include="IInputSet.h">
+      <Filter>Modules\Input\Devices\Set</Filter>
+    </ClInclude>
+    <ClInclude Include="Mesh.h">
+      <Filter>Components\Mesh</Filter>
+    </ClInclude>
+    <ClInclude Include="Camera.h">
+      <Filter>Components\Camera</Filter>
+    </ClInclude>
+    <ClInclude Include="DirectionalLightContainer.h">
+      <Filter>Components\Light</Filter>
+    </ClInclude>
+    <ClInclude Include="PointLightContainer.h">
+      <Filter>Components\Light</Filter>
+    </ClInclude>
+    <ClInclude Include="Shader.h">
+      <Filter>Components\Shader</Filter>
+    </ClInclude>
+    <ClInclude Include="Transformation.h">
+      <Filter>Components\Transformation</Filter>
+    </ClInclude>
+    <ClInclude Include="Event_CreateTextures.h">
+      <Filter>Events\EventTypes</Filter>
+    </ClInclude>
+    <ClInclude Include="Event_CreateShader.h">
+      <Filter>Events\EventTypes</Filter>
+    </ClInclude>
+    <ClInclude Include="Event_CreateWindow.h">
+      <Filter>Events\EventTypes</Filter>
+    </ClInclude>
+    <ClInclude Include="Event_LookForDevices.h">
+      <Filter>Events\EventTypes</Filter>
+    </ClInclude>
+    <ClInclude Include="Event_LookForHwnd.h">
+      <Filter>Events\EventTypes</Filter>
+    </ClInclude>
+    <ClInclude Include="GameLoader.h">
+      <Filter>GameLoader</Filter>
+    </ClInclude>
+    <ClInclude Include="GameOption.h">
+      <Filter>Modules\GameOption</Filter>
+    </ClInclude>
+    <ClInclude Include="IGameOption.h">
+      <Filter>Modules\GameOption</Filter>
+    </ClInclude>
+    <ClInclude Include="ILightManager.h">
+      <Filter>Modules\LightManager</Filter>
+    </ClInclude>
+    <ClInclude Include="LightManager.h">
+      <Filter>Modules\LightManager</Filter>
+    </ClInclude>
+    <ClInclude Include="IMeshManager.h">
+      <Filter>Modules\MeshManager</Filter>
+    </ClInclude>
+    <ClInclude Include="MeshManager.h">
+      <Filter>Modules\MeshManager</Filter>
+    </ClInclude>
+    <ClInclude Include="CameraManager.h">
+      <Filter>Modules\CameraManager</Filter>
+    </ClInclude>
+    <ClInclude Include="ICameraManager.h">
+      <Filter>Modules\CameraManager</Filter>
+    </ClInclude>
+    <ClInclude Include="ITransfoManager.h">
+      <Filter>Modules\TransformationManager</Filter>
+    </ClInclude>
+    <ClInclude Include="TransfoManager.h">
+      <Filter>Modules\TransformationManager</Filter>
+    </ClInclude>
+    <ClInclude Include="IShaderManager.h">
+      <Filter>Modules\ShaderManager</Filter>
+    </ClInclude>
+    <ClInclude Include="ShaderManager.h">
+      <Filter>Modules\ShaderManager</Filter>
+    </ClInclude>
+    <ClInclude Include="IWindow.h">
+      <Filter>Modules\Window</Filter>
+    </ClInclude>
+    <ClInclude Include="NullWindow.h">
+      <Filter>Modules\Window</Filter>
+    </ClInclude>
+    <ClInclude Include="Window.h">
+      <Filter>Modules\Window</Filter>
+    </ClInclude>
+    <ClInclude Include="Event_NewCurrentCamera.h">
+      <Filter>Events\EventTypes</Filter>
+    </ClInclude>
+    <ClInclude Include="Event_SendHwnd.h">
+      <Filter>Events\EventTypes</Filter>
+    </ClInclude>
+    <ClInclude Include="Event_CreateGraphics.h">
+      <Filter>Events\EventTypes</Filter>
+    </ClInclude>
+    <ClInclude Include="tiny_obj_loader.h">
+      <Filter>Utilities\TinyObjLoader</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Components">
+      <UniqueIdentifier>{757aaa23-3406-46f6-b598-438924846b94}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Utilities">
+      <UniqueIdentifier>{96e4651d-8316-4880-8008-cd342bb20ca0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game">
+      <UniqueIdentifier>{f36e4a8c-a203-4323-935c-bd6ba785e6e1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameObject">
+      <UniqueIdentifier>{47a7e893-5885-4841-85c7-2872cfee9812}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Events">
+      <UniqueIdentifier>{46297fad-b4ac-41cf-95ff-bd081368fc5b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Modules">
+      <UniqueIdentifier>{a1b2e623-1eef-4d05-a28b-13e324b866e4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Events\EventTypes">
+      <UniqueIdentifier>{3403a047-c064-4216-853a-f3c2ef5f3dad}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameObject\Manager">
+      <UniqueIdentifier>{2f7ad40e-2f7f-4853-9d08-7190f62a4565}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameObject\Factory">
+      <UniqueIdentifier>{29032e56-8591-4fba-94bf-4a2df708e58e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Utilities\Xml">
+      <UniqueIdentifier>{d91bedea-f4ff-48a1-95b0-57eec6733718}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Utilities\Xml\Mediator">
+      <UniqueIdentifier>{79104998-faa7-4a61-b6c2-b30b1c1df95f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Utilities\Xml\TinyXml">
+      <UniqueIdentifier>{73f5d4f3-248f-4b5a-9645-09049938fbc1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Utilities\Xml\TinyXml\Loader">
+      <UniqueIdentifier>{65dbd3fa-7b10-42db-af27-c3664baeb1ac}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resources">
+      <UniqueIdentifier>{ad55c118-5ef0-418b-8129-9015588c2f7d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resources\Manager">
+      <UniqueIdentifier>{f918b964-6468-4b09-8267-9d82a4e48005}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resources\Manager\Loader">
+      <UniqueIdentifier>{8a0e5a55-30a9-4b44-a5cf-45e831a7a257}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resources\Manager\Ressource">
+      <UniqueIdentifier>{b40dd03d-4aa2-4e6c-9dea-29337bde068e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Components\Interfaces">
+      <UniqueIdentifier>{3c38b03f-bc80-40af-88cf-e1ac8ceb0ea3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Modules\AI">
+      <UniqueIdentifier>{c38f1748-200a-430f-ac10-ebbb581742e6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Components\Graphics">
+      <UniqueIdentifier>{8fe517fe-0796-4aad-bdac-a39cd218706a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Components\Script">
+      <UniqueIdentifier>{6f776e03-0f80-4524-9cdd-657bcee2f459}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resources\Scripts">
+      <UniqueIdentifier>{8e70ef48-30d4-48d9-acb7-883d2cdfa47b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Modules\Input">
+      <UniqueIdentifier>{db65918b-4e64-407c-8146-26d59ce271b6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Utilities\Timer">
+      <UniqueIdentifier>{767b4de6-c18a-4f7f-bd69-33f0746d5b1e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Components\Input">
+      <UniqueIdentifier>{6b5fa509-cbcf-4ef1-85ec-80eff01895dc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Modules\Input\Devices">
+      <UniqueIdentifier>{d4468eb2-b751-49d4-8daa-fad21fe54b81}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Modules\Input\Devices\Manager">
+      <UniqueIdentifier>{c9203cc9-0d56-4636-8c64-f49b289146bf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Modules\Input\Profiles">
+      <UniqueIdentifier>{d6fa3db1-7ad5-4899-bb1c-cadd929207e4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Modules\Input\Devices\Set">
+      <UniqueIdentifier>{50adb841-2357-45d5-8a2b-3567819a37ed}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Modules\AI\Scripts">
+      <UniqueIdentifier>{4b873469-6930-4e72-a8ac-00279884420d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Modules\AI\Scripts\Lua">
+      <UniqueIdentifier>{72974085-2235-45b3-835e-d758f65d237d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Modules\Input\Profiles\Interfaces">
+      <UniqueIdentifier>{6ae7ba51-06c6-4d9a-be63-66712a764c9f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Modules\Input\Profiles\Device Specific">
+      <UniqueIdentifier>{5d29dbb7-e80f-47d0-855d-5e81b1059616}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Class diagrams">
+      <UniqueIdentifier>{ee9f7f01-4f96-4613-aa77-ed97830d2fc9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Components\Mesh">
+      <UniqueIdentifier>{3d1ae475-b2ad-4cf7-b40b-007596226c76}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Components\Camera">
+      <UniqueIdentifier>{ee53445a-28fe-4e71-9da8-6093f4f6c3f3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Components\Light">
+      <UniqueIdentifier>{cec27411-986a-4817-b870-6ac1213d30e0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Components\Shader">
+      <UniqueIdentifier>{3f4e2085-6530-426d-a1f5-a049367f1ddc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Components\Transformation">
+      <UniqueIdentifier>{9d358238-5ce3-43e4-b2bd-f09b8c0df9e2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameLoader">
+      <UniqueIdentifier>{f30b36ba-2c00-4cbe-9c9f-e859f46f93d3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Modules\GameOption">
+      <UniqueIdentifier>{45556b72-a8c5-43ee-b5c8-1a318b5b3a33}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Modules\Graphics">
+      <UniqueIdentifier>{1260d438-80ae-4ab0-b729-9876839e0b95}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Modules\LightManager">
+      <UniqueIdentifier>{ee355fbc-deae-4113-86ad-9d97979296a2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Modules\MeshManager">
+      <UniqueIdentifier>{3b13cdae-3fdd-42a0-a1cd-e5a5f22187df}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Modules\CameraManager">
+      <UniqueIdentifier>{0480f882-d358-4e7e-8a69-6a68baa54db4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Modules\TransformationManager">
+      <UniqueIdentifier>{b965ff83-ed9f-48fc-b6df-d4c51ba9de37}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Modules\ShaderManager">
+      <UniqueIdentifier>{e981f2d1-2721-496a-bf29-ca99f5f6f4fa}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Modules\Window">
+      <UniqueIdentifier>{4c888a7a-a8f8-4428-bf32-2afef2779f1e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resources\Shaders">
+      <UniqueIdentifier>{0f8742de-1405-4dd1-addf-aeaa30f456d0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Utilities\TinyObjLoader">
+      <UniqueIdentifier>{12bd0c6f-3257-4ad3-b37e-367c14d97822}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <Xml Include="GameObjects.xml">
+      <Filter>Resources</Filter>
+    </Xml>
+    <Xml Include="GameLoader.xml">
+      <Filter>Resources</Filter>
+    </Xml>
+    <Xml Include="GameOption.xml">
+      <Filter>Resources</Filter>
+    </Xml>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Scripts\BasicBrain.lua">
+      <Filter>Resources\Scripts</Filter>
+    </None>
+    <None Include="Scripts\FSM_Brain.lua">
+      <Filter>Resources\Scripts</Filter>
+    </None>
+    <None Include="Scripts\InitClass.lua">
+      <Filter>Resources\Scripts</Filter>
+    </None>
+    <None Include="GameObject.cd">
+      <Filter>Class diagrams</Filter>
+    </None>
+    <None Include="Input.cd">
+      <Filter>Class diagrams</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="InputProfiles.txt">
+      <Filter>Resources</Filter>
+    </Text>
+    <Text Include="ActionDesc.txt">
+      <Filter>Resources</Filter>
+    </Text>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="LightingPhong.fx">
+      <Filter>Resources\Shaders</Filter>
+    </CustomBuild>
+  </ItemGroup>
+</Project>

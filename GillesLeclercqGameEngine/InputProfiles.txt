@@ -1,0 +1,18 @@
+keyboard_0
+1 1
+B UP z T
+B DOWN s T
+B LEFT q T
+B RIGHT d T
+;
+xinput_0
+1 0
+B UP up T
+B DOWN down T
+B LEFT left T
+B RIGHT right T
+A LEFT_TRIGGER lt
+A RIGHT_TRIGGER rt
+S LEFT_STICK lstick
+S RIGHT_STICK rstick
+;

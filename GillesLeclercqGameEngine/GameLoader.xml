@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameLoader>
+  <Ai>
+    LuaAi.xml
+  </Ai>
+  <Graphics>
+    Graphics.xml
+  </Graphics>
+  <GameOption>
+    GameOption.xml
+  </GameOption>
+  <GameObjects>
+    GameObjects.xml
+  </GameObjects>
+  <Window>
+    Window.xml
+  </Window>
+  <Shader>
+    Shader.xml
+  </Shader>
+  <Mesh>
+    Mesh.xml
+  </Mesh>
+  <Transformation>
+    Transformation.xml
+  </Transformation>
+  <Camera>
+    CameraManager.xml
+  </Camera>
+  <Light>
+    LightManager.xml
+  </Light>
+  <Input>
+    InputProfiles.txt
+  </Input>
+</GameLoader>

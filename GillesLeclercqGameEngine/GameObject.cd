@@ -1,0 +1,42 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="GameObject" Collapsed="true">
+    <Position X="2.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ADQACAgQAgAIJABAAAAAhARABABAAAAEAAAGICIAQAA=</HashCode>
+      <FileName>GameObject.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="IComponent">
+    <Position X="5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAIAAAQAAAAAAAAAAAAAAAAQAQAAAAAAAI=</HashCode>
+      <FileName>IComponent.h</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="m_pOwner" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="GraphicsComponent" Collapsed="true">
+    <Position X="7" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAAAABQAAEAAAAAAABAAAAAAAAAAQAAAAABAI=</HashCode>
+      <FileName>GraphicsComponent.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="IInputComponent" Collapsed="true">
+    <Position X="5" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAACQAQABAAAAAAAABAEAAQAAAAAUAAAAAAAI=</HashCode>
+      <FileName>IInputComponent.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="IScriptComponent" Collapsed="true">
+    <Position X="3" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAACAAAAAAAAAAAAAAAAAAAAAEAAAAQAAAAAAAA=</HashCode>
+      <FileName>IScriptComponent.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
